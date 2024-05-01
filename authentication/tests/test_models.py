@@ -3,7 +3,7 @@ from authentication.models import User
 
 
 class TestModel(TestSetup):
-
+    # testJ
     def test_should_create_user(self):
 
         user = self.create_test_user()
